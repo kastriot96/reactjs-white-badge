@@ -45,6 +45,8 @@ class Locations extends Component {
     );
   }
 }
+
+// FUNCTIONAL BASED
 // const Locations = () => {
 // const [showLocations, setShowLocations] = useState(true);
 // const toggleLocationsHandler = () => {
@@ -52,8 +54,8 @@ class Locations extends Component {
 // };
 // const locationsList = (
 // <ul>
-// {DUMMY_LOCATIONS.map((user) => (
-// <User key={user.id} name={user.name} />
+// {DUMMY_LOCATIONS.map((location) => (
+// <Location key={location.id} name={location.name} />
 // ))}
 // </ul>
 // );

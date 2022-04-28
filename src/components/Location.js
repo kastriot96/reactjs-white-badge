@@ -11,6 +11,8 @@ class Location extends Component {
     return <li className={classes.location}>{this.props.name}</li>;
   }
 }
+
+// FUNCTIONAL BASED
 // const Location = (props) => {
 // return <li className={classes.location}>{props.name}</li>;
 // };

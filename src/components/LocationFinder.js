@@ -2,6 +2,7 @@ import { Fragment, useState, useEffect, Component } from "react";
 
 import Locations from "./Locations";
 import classes from "./LocationFinder.module.css";
+
 import LocationsContext from "../store/locations-context";
 import ErrorBoundary from "./ErrorBoundary";
 
@@ -47,6 +48,8 @@ class LocationFinder extends Component {
     );
   }
 }
+
+// FUNCTIONAL BASED
 // const LocationFinder = () => {
 // const [filteredLocations, setFilteredLocations] = useState(DUMMY_LOCATIONS);
 // const [searchTerm, setSearchTerm] = useState('');
